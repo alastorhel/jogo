@@ -5,21 +5,79 @@
              Shell.NavBarIsVisible="false"
               BackgroundColor="#86adb9">
    <Grid>
-       <Grid.RowDefinitions>
-          <RowDefinition Height="*"/>
-          <RowDefinition Height="120"/>
-          <RowDefinition Height="10"/>
-          <RowDefinition Height="10"/>
-        </Grid.RowDefinitions>
 
-
+         
          <Image Source="fundo.jpg"
                Aspect="AspectFill"
-                Grid.Row="0"/>
-
+                Grid.Row="1"/>
+          
+         
         <Image Source="lin.png"
-          VerticalOptions="End"
-          Grid.Row="0"/>
+          VerticalOptions="End"/>
+
+        <Label Text="Lin"
+               TextColor="#cf0e0e"
+               FontSize="40"
+               FontFamily="letrinhanova"
+                HorizontalOptions="Center"
+              HorizontalTextAlignment="Center"
+               Margin="20,300"/>
+
+    <Frame    x:Name="Lin"
+              HeightRequest="200"
+              BackgroundColor="#3d9996"
+              Margin="10,10,10,200"
+              VerticalOptions="Start">
+
+    <Grid>
+       <Grid.RowDefinitions>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       </Grid.RowDefinitions>
+            
+        <Grid.ColumnDefinitions>
+         <ColumnDefinition Width="40"/>
+           <ColumnDefinition Width="*"/>
+         </Grid.ColumnDefinitions>
+
+          <Image Source="flor.png"
+              Grid.Row="0"
+              Grid.Column="0"/>
+
+               <Image Source="mel.png"
+              Grid.Row="1"
+              Grid.Column="0"/>
+
+              <Image Source="carinho.png"
+                Grid.Row="2"
+                Grid.Column="0"/>
+
+            <ProgressBar x:name="comida"
+                         ProgressColor="#0dafb5"
+                         Progress="0.5"
+                        Grid.Row="0"
+                        Grid.Column="1"/>
+                        
+             <ProgressBar x:name="sede"
+                     ProgressColor="#d4d44e"
+                     Progress="0.5"
+                     Grid.Row="1"
+                     Grid.Column="1"/>
+
+                     <ProgressBar x:name="carinho"
+                     ProgressColor="#ab202c"
+                     Progress="0.5"
+                     Grid.Row="2"
+                     Grid.Column="1"/>
+
+
+
+          
+
+        </Grid>
+     </Frame>
 
      </Grid>
+
 </ContentPage>
