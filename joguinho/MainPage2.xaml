@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="joguinho.MainPage"
+             x:Class="joguinho.MainPage2"
              Shell.NavBarIsVisible="false">
               
    <Grid>
@@ -12,10 +12,10 @@
                 Grid.Row="1"/>
           
          
-        <Image Source="lin.png"
+        <Image Source="drogo.png"
           VerticalOptions="End"/>
 
-        <Label Text="Lin"
+        <Label Text="Drogo"
                TextColor="#cf0e0e"
                FontSize="40"
                FontFamily="letrinhanova"
@@ -23,7 +23,7 @@
               HorizontalTextAlignment="Center"
                Margin="20,300"/>
 
-    <Frame    x:Name="Lin"
+    <Frame    x:Name="Drogo"
               HeightRequest="200"
               BackgroundColor="#3d9996"
               Margin="10,10,10,200"
@@ -81,7 +81,7 @@
          </Grid.RowDefinitions>
 
               <ImageButton Source="seta.png"
-                             Clicked="apertarnaflecha"
+                             Clicked="apertarnaflechar"
                            HeightRequest="50"
                            WidthRequest="50"
                            CornerRadius="25"

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="joguinho.MainPage"
+             x:Class="joguinho.MainPage1"
              Shell.NavBarIsVisible="false">
               
    <Grid>
@@ -12,10 +12,10 @@
                 Grid.Row="1"/>
           
          
-        <Image Source="lin.png"
+        <Image Source="sofie.png"
           VerticalOptions="End"/>
 
-        <Label Text="Lin"
+        <Label Text="Sofie"
                TextColor="#cf0e0e"
                FontSize="40"
                FontFamily="letrinhanova"
@@ -23,7 +23,7 @@
               HorizontalTextAlignment="Center"
                Margin="20,300"/>
 
-    <Frame    x:Name="Lin"
+    <Frame    x:Name="Sofie"
               HeightRequest="200"
               BackgroundColor="#3d9996"
               Margin="10,10,10,200"
@@ -75,18 +75,12 @@
 
         </Grid>
      </Frame>
- 
-       <Grid.RowDefinitions>
-       <RowDefinition Height="*"/>
-         </Grid.RowDefinitions>
-
-              <ImageButton Source="seta.png"
-                             Clicked="apertarnaflecha"
+                         <ImageButton Source="seta.png"
+                            Clicked="apertarnaflechas"
                            HeightRequest="50"
                            WidthRequest="50"
                            CornerRadius="25"
                             Margin="270,40,10,40"/>
-
      </Grid>
 
 </ContentPage>
