@@ -86,7 +86,27 @@
                            WidthRequest="50"
                            CornerRadius="25"
                             Margin="270,40,10,40"/>
+                             
+              <ImageButton      Source="servo.png"
+                             Clicked="apertarnoservo"
+                           HeightRequest="50"
+                           WidthRequest="50"
+                           CornerRadius="25"
+                            Margin="10,10,300,200"/>
 
+              <ImageButton        Source="mel.png"
+                               Clicked="apertarnaagua"
+                              HeightRequest="50"
+                              WidthRequest="50"
+                             CornerRadius="25"
+                             Margin="10,10,300,100"/>
+
+                <ImageButton        Source="carinho.png"
+                                  Clicked="apertarnocarinho"
+                                 HeightRequest="50"
+                                 WidthRequest="50"
+                                 CornerRadius="25"
+                                 Margin="10,70,300,50"/>
      </Grid>
 
 </ContentPage>
