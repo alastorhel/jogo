@@ -1,8 +1,8 @@
 namespace joguinho;
 
-public class Lin : Pai
+public class Sofie: Pai
 {
-  public Lin()
+  public Sofie()
   {
          fome = 0;
          sede = 0;

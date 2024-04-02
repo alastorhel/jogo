@@ -55,19 +55,19 @@
 
             <ProgressBar x:name="comida"
                          ProgressColor="#0dafb5"
-                         Progress="0.5"
+                         Progress="0.4"
                         Grid.Row="0"
                         Grid.Column="1"/>
                         
              <ProgressBar x:name="sede"
                      ProgressColor="#d4d44e"
-                     Progress="0.5"
+                     Progress="0.7"
                      Grid.Row="1"
                      Grid.Column="1"/>
 
                      <ProgressBar x:name="carinho"
                      ProgressColor="#ab202c"
-                     Progress="0.5"
+                     Progress="0.3"
                      Grid.Row="2"
                      Grid.Column="1"/>
 
@@ -81,28 +81,28 @@
          </Grid.RowDefinitions>
 
               <ImageButton Source="seta.png"
-                             Clicked="apertarnaflecha"
+                             Clicked="aflecha"
                            HeightRequest="50"
                            WidthRequest="50"
                            CornerRadius="25"
                             Margin="270,40,10,40"/>
                              
               <ImageButton      Source="servo.png"
-                             Clicked="apertarnoservo"
+                             Clicked="oservo"
                            HeightRequest="50"
                            WidthRequest="50"
                            CornerRadius="25"
                             Margin="10,10,300,200"/>
 
               <ImageButton        Source="mel.png"
-                               Clicked="apertarnaagua"
+                               Clicked="aagua"
                               HeightRequest="50"
                               WidthRequest="50"
                              CornerRadius="25"
                              Margin="10,10,300,100"/>
 
                 <ImageButton        Source="carinho.png"
-                                  Clicked="apertarnocarinho"
+                                  Clicked="ocarinho"
                                  HeightRequest="50"
                                  WidthRequest="50"
                                  CornerRadius="25"

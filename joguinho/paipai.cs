@@ -2,20 +2,24 @@ namespace joguinho;
 
 public class Pai 
 {
-    public  int fome;
-     public  int sede;
-      public  int carinho;
-
-
+    protected  double fome;
+     protected  double sede;
+      protected  double carinho;
+      protected string arquivo;
+      
+      public string GetArquivo()
+      {
+          return arquivo;
+      }
       public Pai()
     {
         fome = 0;
         sede = 0;
         carinho = 0;
-    
+        
     }
 
-    public void SetFome(int f)
+    public void SetFome(double f)
     {
        
         if (f <= 1 || f >= 0)
@@ -27,13 +31,13 @@ public class Pai
     
     }
      
-     public int GetFome()
+     public double GetFome()
      {
         return sede;
      }
 
 
-      public void SetSede(int s)
+      public void SetSede(double s)
     {
        
         if (s <= 1 || s >= 0)
@@ -45,12 +49,12 @@ public class Pai
     
     }
      
-     public int GetSede()
+     public double GetSede()
      {
         return sede;
      }
 
-      public void SetCarinho(int c)
+      public void SetCarinho(double c)
     {
        
         if (c <= 1 || c >= 0)
@@ -62,7 +66,7 @@ public class Pai
     
     }
      
-     public int GetCarinho()
+     public double GetCarinho()
      {
         return carinho;
      }

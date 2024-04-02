@@ -1,8 +1,8 @@
 namespace joguinho;
 
-public class Lin : Pai
+public class Triel : Pai
 {
-  public Lin()
+  public Triel()
   {
          fome = 0;
          sede = 0;
