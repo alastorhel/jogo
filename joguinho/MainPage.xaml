@@ -13,15 +13,10 @@
           
          
         <Image Source="lin.png"
+                x:Name="programa"
           VerticalOptions="End"/>
 
-        <Label Text="Lin"
-               TextColor="#cf0e0e"
-               FontSize="40"
-               FontFamily="letrinhanova"
-                HorizontalOptions="Center"
-              HorizontalTextAlignment="Center"
-               Margin="20,300"/>
+       
 
     <Frame    x:Name="Lin"
               HeightRequest="200"
@@ -53,19 +48,19 @@
                 Grid.Row="2"
                 Grid.Column="0"/>
 
-            <ProgressBar x:name="comida"
+            <ProgressBar x:Name="comida"
                          ProgressColor="#0dafb5"
                          Progress="0.4"
                         Grid.Row="0"
                         Grid.Column="1"/>
                         
-             <ProgressBar x:name="sede"
+             <ProgressBar x:Name="sede"
                      ProgressColor="#d4d44e"
                      Progress="0.7"
                      Grid.Row="1"
                      Grid.Column="1"/>
 
-                     <ProgressBar x:name="carinho"
+                     <ProgressBar x:Name="carinho"
                      ProgressColor="#ab202c"
                      Progress="0.3"
                      Grid.Row="2"
